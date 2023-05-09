@@ -48,3 +48,21 @@ li:hover{
 transition: all .5s ease-in;
 background-color: rgb(180, 35, 35);
 }
+.side-bar{
+  text-align:left;  
+  text-indent: 90px;
+  font-size: 40px;
+}
+side h1{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
+}
+p{
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+
+
+
+}
