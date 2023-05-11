@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: cornsilk;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+    
 }
-.container{
+.hero{
     width:100%;
-    background-color: darkgray;
+    background-color: rgb(99, 108, 126);
     height: 300px;
-    margin:0 auto;
+    
+    
 }
 nav{
     width: 100%;
@@ -15,10 +20,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(25, 23, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 .logo{
     width: 30%;
+    color:cornsilk
 }
 .navbar-links{
     width: 50%;
@@ -36,33 +43,67 @@ ul li{
     width: 120px;
     height: 70px;
     list-style-type: none;
+    
+    
 }
 .logo h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color:cornsilk;
+    
 }
 li:hover{
 transition: all .5s ease-in;
-background-color: rgb(180, 35, 35);
+background-color: rgb(11, 38, 15);
 }
-.side-bar{
-  text-align:left;  
-  text-indent: 90px;
-  font-size: 40px;
+.about-me{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
 }
-side h1{
-    padding-top: 100px;
-    margin-bottom: 100px;
+.about-me img{
+    height: auto;
+    width: 430px;
     
 }
-p{
-    width: 50%;
-    height: 100%;
-    margin-left: 50%;
+.about-me-text{
+    width: 550px;
+}
+.main{
+    width:1130px;
+    max-width: width 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.work{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.work img{
+    height: auto;
+    width: 430px;
+    
+}
+.contact-me{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}   
 
 
-
+.contact-me-text{
+    width: 550px;
+}
+.contact-me-main{
+    width:1130px;
+    max-width: width 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
